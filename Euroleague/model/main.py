@@ -1,0 +1,72 @@
+import pandas as pd
+import sys
+
+def print_data(value, position=None):
+    if position is not None:
+        print(f"\nAll {position}:")
+        # join each team with a newline, prefixing with "-"
+        output = "\n".join(f"- {v}" for v in value)
+        return output
+    else:
+        print("Wrong position")
+        sys.exit(1)
+
+def team_selection(position=None):
+    if position is not None:
+        team_data = []
+        print(f"{str(position).upper()} selection:")
+        while True:
+            team = input("Team name (or 'Q' to quit): ").strip()
+            if team.upper() == 'Q':
+                break
+            team_data.append(team)
+        return team_data
+    else:
+        print("Select players positions")
+        sys.exit(1)
+
+# Normalize opponent columns 
+def normalize_opponents(df): 
+    opponent_cols = [col for col in df.columns if "Opponent" in col]
+    all_opponents = pd.Series(dtype=str) 
+    for col in opponent_cols: 
+        # Remove leading '@' and strip whitespace 
+        cleaned = df[col].astype(str).str.replace("^@", "", regex=True).str.strip() 
+        all_opponents = pd.concat([all_opponents, cleaned], ignore_index=True)
+        # Count frequency 
+    return all_opponents.value_counts()
+
+def final_print(position, matched_rows, position_name):
+    print(print_data(position, position_name))
+    for pos in position:
+        matches = fixtures[fixtures["Team"].str.contains(pos, case=False, na=False)] 
+        matched_rows = pd.concat([matched_rows, matches], ignore_index=True)
+        if not matches.empty:
+            pass
+        else: 
+            print(f"\nNo matches found for team: '{pos}'")
+    print(f"{position_name}: ",matched_rows)
+    df = pd.DataFrame(matched_rows)
+    # Run normalization 
+    opponent_counts = normalize_opponents(df)
+    # Print result 
+    print(opponent_counts)
+
+# Load fixtures
+fixtures = pd.read_csv("data/euroleague_fixtures_rounds_18_20.csv")
+
+# Collect players by position
+guards = team_selection(position="guards")
+forwards = team_selection(position="forwards")
+centers = team_selection(position="center")
+
+matched_rows_guard = pd.DataFrame()
+matched_rows_forward = pd.DataFrame()
+matched_rows_center = pd.DataFrame()
+
+if guards:
+    final_print(guards,matched_rows_guard,"Guard Teams")
+if forwards:
+    final_print(forwards,matched_rows_forward,"Forward Teams")
+if centers:
+    final_print(centers,matched_rows_center,"Center Teams")
