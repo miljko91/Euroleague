@@ -87,8 +87,8 @@ def set_points(team_name, points, column_name):
     fixtures.loc[fixtures["Team"].str.contains(team_name, case=False, na=False), f"{column_name}"] = points
 
 # Load fixtures
-fixtures = pd.read_csv("data/euroleague_round_19_22.csv")
-fixtures = fixtures.drop(columns=["Round 19 Opponent","Day (R19)"])
+fixtures = pd.read_csv("data/euroleague_round_22_25.csv")
+#fixtures = fixtures.drop(columns=["Round 19 Opponent","Day (R19)"])
 
 #print(fixtures.head(5))
 #sys.exit(0)
@@ -100,22 +100,22 @@ fixtures["Centers_Points"] = None
 
 # Example usage
 # Anadolu Efes
-set_points("Efes", 29.3, "Guard_Points")
+set_points("Efes", 35.3, "Guard_Points")
 set_points("Efes", 30.2, "Forwards_Points")
 set_points("Efes", 35.3, "Centers_Points")
 
 # Real Madrid
-set_points("Real Madrid", 30.3, "Guard_Points")
+set_points("Real Madrid", 29.8, "Guard_Points")
 set_points("Real Madrid", 18, "Forwards_Points")
 set_points("Real Madrid", 17.1, "Centers_Points")
 
 # Zalgiris Kaunas
-set_points("Zalgiris Kaunas", 21.5, "Guard_Points")
+set_points("Zalgiris Kaunas", 23.5, "Guard_Points")
 set_points("Zalgiris Kaunas", 25.3, "Forwards_Points")
 set_points("Zalgiris Kaunas", 29.3, "Centers_Points")
 
 # Maccabi Tel Aviv
-set_points("Maccabi Tel Aviv", 27, "Guard_Points")
+set_points("Maccabi Tel Aviv", 28.2, "Guard_Points")
 set_points("Maccabi Tel Aviv", 25.2, "Forwards_Points")
 set_points("Maccabi Tel Aviv", 18.5, "Centers_Points")
 
