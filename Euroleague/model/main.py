@@ -100,104 +100,104 @@ fixtures["Centers_Points"] = None
 
 # Example usage
 # Anadolu Efes
-set_points("Efes", 35.3, "Guard_Points")
-set_points("Efes", 30.2, "Forwards_Points")
-set_points("Efes", 35.3, "Centers_Points")
+set_points("Efes", 36.6, "Guard_Points")
+set_points("Efes", 30.5, "Forwards_Points")
+set_points("Efes", 21.3, "Centers_Points")
 
 # Real Madrid
-set_points("Real Madrid", 29.8, "Guard_Points")
-set_points("Real Madrid", 18, "Forwards_Points")
-set_points("Real Madrid", 17.1, "Centers_Points")
+set_points("Real Madrid", 24.2, "Guard_Points")
+set_points("Real Madrid", 16.1, "Forwards_Points")
+set_points("Real Madrid", 12.4, "Centers_Points")
 
 # Zalgiris Kaunas
-set_points("Zalgiris Kaunas", 23.5, "Guard_Points")
-set_points("Zalgiris Kaunas", 25.3, "Forwards_Points")
-set_points("Zalgiris Kaunas", 29.3, "Centers_Points")
+set_points("Zalgiris Kaunas", 18.7, "Guard_Points")
+set_points("Zalgiris Kaunas", 24.9, "Forwards_Points")
+set_points("Zalgiris Kaunas", 30.8, "Centers_Points")
 
 # Maccabi Tel Aviv
-set_points("Maccabi Tel Aviv", 28.2, "Guard_Points")
-set_points("Maccabi Tel Aviv", 25.2, "Forwards_Points")
-set_points("Maccabi Tel Aviv", 18.5, "Centers_Points")
+set_points("Maccabi Tel Aviv", 25.2, "Guard_Points")
+set_points("Maccabi Tel Aviv", 29.1, "Forwards_Points")
+set_points("Maccabi Tel Aviv", 33.7, "Centers_Points")
 
 # Monaco
-set_points("Monaco", 26.4, "Guard_Points")
-set_points("Monaco", 17.6, "Forwards_Points")
-set_points("Monaco", 28.7, "Centers_Points")
+set_points("Monaco", 24.4, "Guard_Points")
+set_points("Monaco", 20.6, "Forwards_Points")
+set_points("Monaco", 17.1, "Centers_Points")
 
 # Paris Basketball
-set_points("Paris Basketball", 39.5, "Guard_Points")
-set_points("Paris Basketball", 29.1, "Forwards_Points")
-set_points("Paris Basketball", 42.2, "Centers_Points")
+set_points("Paris Basketball", 36.5, "Guard_Points")
+set_points("Paris Basketball", 27.7, "Forwards_Points")
+set_points("Paris Basketball", 38.2, "Centers_Points")
 
 # Hapoel Tel Aviv
-set_points("Hapoel Tel Aviv", 24.7, "Guard_Points")
-set_points("Hapoel Tel Aviv", 21.1, "Forwards_Points")
-set_points("Hapoel Tel Aviv", 26.7, "Centers_Points")
+set_points("Hapoel Tel Aviv", 25.2, "Guard_Points")
+set_points("Hapoel Tel Aviv", 16.7, "Forwards_Points")
+set_points("Hapoel Tel Aviv", 17.8, "Centers_Points")
 
 # ASVEL
-set_points("ASVEL", 27.6, "Guard_Points")
-set_points("ASVEL", 30.9, "Forwards_Points")
-set_points("ASVEL", 32.3, "Centers_Points")
+set_points("ASVEL", 25.7, "Guard_Points")
+set_points("ASVEL", 20.9, "Forwards_Points")
+set_points("ASVEL", 28.3, "Centers_Points")
 
 # Olympiacos
-set_points("Olympiacos", 29.1, "Guard_Points")
-set_points("Olympiacos", 18.7, "Forwards_Points")
+set_points("Olympiacos", 31.8, "Guard_Points")
+set_points("Olympiacos", 15, "Forwards_Points")
 set_points("Olympiacos", 26, "Centers_Points")
 
 # Fenerbahçe
-set_points("Fenerbahçe", 23.4, "Guard_Points")
-set_points("Fenerbahçe", 20.7, "Forwards_Points")
-set_points("Fenerbahçe", 20.4, "Centers_Points")
+set_points("Fenerbahçe", 25.6, "Guard_Points")
+set_points("Fenerbahçe", 23.1, "Forwards_Points")
+set_points("Fenerbahçe", 33.3, "Centers_Points")
 
 # Partizan Belgrade
-set_points("Partizan Belgrade", 30.9, "Guard_Points")
-set_points("Partizan Belgrade", 27.9, "Forwards_Points")
-set_points("Partizan Belgrade", 44, "Centers_Points")
+set_points("Partizan Belgrade", 30.1, "Guard_Points")
+set_points("Partizan Belgrade", 22.8, "Forwards_Points")
+set_points("Partizan Belgrade", 39.2, "Centers_Points")
 
 # Bayern Munich
-set_points("Bayern Munich", 29.4, "Guard_Points")
-set_points("Bayern Munich", 23.8, "Forwards_Points")
-set_points("Bayern Munich", 34, "Centers_Points")
+set_points("Bayern Munich", 23, "Guard_Points")
+set_points("Bayern Munich", 34.9, "Forwards_Points")
+set_points("Bayern Munich", 34.9, "Centers_Points")
 
 # Crvena Zvezda
-set_points("Crvena Zvezda", 22.2, "Guard_Points")
-set_points("Crvena Zvezda", 25.2, "Forwards_Points")
-set_points("Crvena Zvezda", 35.9, "Centers_Points")
+set_points("Crvena Zvezda", 25.7, "Guard_Points")
+set_points("Crvena Zvezda", 28.3, "Forwards_Points")
+set_points("Crvena Zvezda", 28.2, "Centers_Points")
 
 # Barcelona
-set_points("Barcelona", 25.7, "Guard_Points")
-set_points("Barcelona", 21.1, "Forwards_Points")
-set_points("Barcelona", 30.9, "Centers_Points")
+set_points("Barcelona", 25.9, "Guard_Points")
+set_points("Barcelona", 19.9, "Forwards_Points")
+set_points("Barcelona", 31.5, "Centers_Points")
 
 # Panathinaikos
-set_points("Panathinaikos", 24.9, "Guard_Points")
-set_points("Panathinaikos", 17.6, "Forwards_Points")
-set_points("Panathinaikos", 42.6, "Centers_Points")
+set_points("Panathinaikos", 27.5, "Guard_Points")
+set_points("Panathinaikos", 20.4, "Forwards_Points")
+set_points("Panathinaikos", 33.1, "Centers_Points")
 
 # Valencia Basket
-set_points("Valencia Basket", 21.3, "Guard_Points")
-set_points("Valencia Basket", 19.7, "Forwards_Points")
-set_points("Valencia Basket", 33.7, "Centers_Points")
+set_points("Valencia Basket", 22.3, "Guard_Points")
+set_points("Valencia Basket", 23.2, "Forwards_Points")
+set_points("Valencia Basket", 27.7, "Centers_Points")
 
 # Olimpia Milano
-set_points("Olimpia Milano", 31.4, "Guard_Points")
-set_points("Olimpia Milano", 30.8, "Forwards_Points")
-set_points("Olimpia Milano", 23.2, "Centers_Points")
+set_points("Olimpia Milano", 25.4, "Guard_Points")
+set_points("Olimpia Milano", 31, "Forwards_Points")
+set_points("Olimpia Milano", 31.4, "Centers_Points")
 
 # Virtus Bologna
-set_points("Virtus Bologna", 23.4, "Guard_Points")
-set_points("Virtus Bologna", 27.7, "Forwards_Points")
-set_points("Virtus Bologna", 47.6, "Centers_Points")
+set_points("Virtus Bologna", 23.5, "Guard_Points")
+set_points("Virtus Bologna", 25.9, "Forwards_Points")
+set_points("Virtus Bologna", 45.6, "Centers_Points")
 
 # Baskonia
-set_points("Baskonia", 27, "Guard_Points")
-set_points("Baskonia", 25.9, "Forwards_Points")
-set_points("Baskonia", 23.3, "Centers_Points")
+set_points("Baskonia", 32.1, "Guard_Points")
+set_points("Baskonia", 36.1, "Forwards_Points")
+set_points("Baskonia", 18.5, "Centers_Points")
 
 # Dubai Basketball
-set_points("Dubai Basketball", 22.1, "Guard_Points")
-set_points("Dubai Basketball", 33.2, "Forwards_Points")
-set_points("Dubai Basketball", 29.3, "Centers_Points")
+set_points("Dubai Basketball", 33.3, "Guard_Points")
+set_points("Dubai Basketball", 22.3, "Forwards_Points")
+set_points("Dubai Basketball", 22.5, "Centers_Points")
 
 # Collect players by position
 guards   = team_selection(position="guards")
